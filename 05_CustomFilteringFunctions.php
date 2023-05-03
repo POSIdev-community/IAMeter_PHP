@@ -1,6 +1,9 @@
 <?php
 $parm1 = $_GET['parm1'];
 
+// True positive
+echo $parm1;
+
 // False positive
 // Analyzers that do not take into account the semantics of custom filtering functions will report a vulnerability
 // (CustomFilter.Filter implements the `s.Replace("<", string.Empty).Replace(">", string.Empty)` logic)

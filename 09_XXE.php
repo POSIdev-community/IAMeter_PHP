@@ -5,7 +5,7 @@
     libxml_disable_entity_loader(true);
     $xml = simplexml_load_string($_GET['parm1']);   // Safe parser configuration
 
-
+    // True positive
     libxml_disable_entity_loader(false);
     $xml = simplexml_load_string($_GET['parm1']);   // Vulnerable parser configuration
 

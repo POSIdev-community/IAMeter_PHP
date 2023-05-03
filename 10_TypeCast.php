@@ -1,6 +1,8 @@
 <?php
 
 $param = $_GET['parm1'];
+
+// True positive
 echo $param;
 
 // False positive

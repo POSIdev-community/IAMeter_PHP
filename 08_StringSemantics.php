@@ -10,6 +10,11 @@ EOD;
 
 $string = sprintf($string, COND1);
 
+// True positive
+if ("true" == "true") {
+    echo $parm1;
+}
+
 if ($string == "true") {
     // False positive
     // Analyzers that do not interprete the semantics of standard library types will report a vulnerability
